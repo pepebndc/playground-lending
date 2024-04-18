@@ -5,7 +5,6 @@ import Feature from "./components/Feature";
 export default function Home() {
   return (
     <main>
-      <Header />
       <Hero />
       <Feature />
     </main>
