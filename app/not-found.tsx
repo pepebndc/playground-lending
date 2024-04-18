@@ -22,7 +22,7 @@ export default function NotFound() {
           <div className="text-center justify-items-center align-middle h-auto">
             <h1 className="mb-4 text-6xl font-semibold text-red-500">404</h1>
             <p className="mb-4 text-lg text-gray-600">
-              Oops! Looks like you're lost.
+              Oops! Looks like you are lost.
             </p>
             <div className="animate-bounce">
               <svg
@@ -40,7 +40,7 @@ export default function NotFound() {
               </svg>
             </div>
             <p className="mt-4 text-gray-600">
-              Let's get you back{" "}
+              Let&aposs get you back{" "}
               <a href="/" className="text-blue-500">
                 home
               </a>
