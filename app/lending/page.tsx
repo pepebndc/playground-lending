@@ -4,7 +4,7 @@ export default function Lending() {
   return (
     <main>
       <Header />
-      Lending!
+      Lending! yuhuuu
     </main>
   );
 }
