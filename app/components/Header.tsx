@@ -6,6 +6,7 @@ import Link from "next/link";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 import { useState } from "react";
+import { useAccount } from "wagmi";
 
 const navigation = [
   { name: "Lending", href: "/lending" },
@@ -14,6 +15,22 @@ const navigation = [
 ];
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const address = useAccount().address;
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
+  console.log(address);
 
   return (
     <header className="inset-x-0 sticky top-0 z-50">
@@ -54,7 +71,7 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            <ConnectButton /> <span aria-hidden="true">&rarr;</span>
+            <ConnectButton />
           </a>
         </div>
       </nav>

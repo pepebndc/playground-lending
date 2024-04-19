@@ -1,23 +1,16 @@
+"use client";
 import { useAccount, useEnsName } from "wagmi";
 import { Account } from "../components/account";
 
 export default function Borrowing() {
-  /*
   const { address } = useAccount();
   const { data, error, status } = useEnsName({ address });
   if (status === "pending") return <div>Loading ENS name</div>;
   if (status === "error")
     return <div>Error fetching ENS name: {error.message}</div>;
-  return <div>ENS name: {data}</div>;
-
-  */
-
   return (
     <div>
-      <h1>Borrowing</h1>
-      <p>
-        This is the borrowing page. It will show information about borrowing.
-      </p>
+      ENS name: {data ? data : "-"} ({address})
     </div>
   );
 }
